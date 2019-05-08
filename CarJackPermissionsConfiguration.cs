@@ -6,6 +6,7 @@ namespace Game4Freak.CarjackPermissions
     public class CarjackPermissionsConfiguration : IRocketPluginConfiguration
     {
         public bool allowGroupCarjack;
+
         public string ignorePermission;
 
         public void LoadDefaults()
